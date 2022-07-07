@@ -1,15 +1,46 @@
-span{
-    color:#e67e22;
-}
-#pic{
-    margin: 0px 0px 0px 1000px ;
-    padding: 12px;
-    
-}
-#welcome{
-    margin-left: 10px;
-    padding: 12px;
-}
-body{
+body {
     font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+
+.color {
+    color: #e67e22;
+
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 3%;
+}
+
+.half-width-imag {
+    width: 80%;
+}
+
+.hire-button {
+    
+    color: aliceblue;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 700;
+}
+a:hover{
+    background-image: linear-gradient(blue,#1abc9c);
+    color: black;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+p{
+    text-align: justify;
 }
