@@ -17,6 +17,8 @@ h2{
 .flexible-container {
     display: flex;
     margin-bottom: 100px;
+}
+.experience-area{
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -31,7 +33,7 @@ h2{
     width: 80%;
 }
 
-.hire-button {
+.link-button {
     
     color: aliceblue;
     padding: 5px 15px 5px 15px;
